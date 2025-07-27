@@ -40,6 +40,7 @@ const Header = () => {
 
   return (
     <>
+      <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <header
         className={`header top-0 left-0 z-40 flex w-full items-center ${
           sticky
@@ -49,28 +50,26 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className="flex w-20 max-w-full px-1 xl:mr-0">
               <Link
                 href="/"
-                className={`header-logo block w-full ${
+                className={`header-logo block w-full flex items-center space-x-2 ${
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                <Image
-                  src="/images/logo/logo-2.svg"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="w-full dark:hidden"
-                />
-                <Image
-                  src="/images/logo/logo.svg"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
-                />
-              </Link>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-music w-8 h-8 text-pink-500"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-heart w-6 h-6 text-red-500"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+              </Link>              
+            </div>
+            <div className="flex w-60 max-w-full px-1 xl:mr-12">
+              <Link
+                href="/"
+                className={`header-logo block w-full flex items-center space-x-2 ${
+                  sticky ? "py-5 lg:py-2" : "py-8"
+                } `}
+              >
+                <span className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">MU5IC4GOOD</span>
+              </Link>              
             </div>
             <div className="flex w-full items-center justify-between px-4">
               <div>
@@ -179,6 +178,7 @@ const Header = () => {
           </div>
         </div>
       </header>
+      </nav>
     </>
   );
 };
