@@ -91,16 +91,10 @@ const Brands = () => {
                 </div>
               </div>
               <div className="flex flex-col justify-center gap-4 sm:flex-row">
-                <button
-                  className="ring-offset-background focus-visible:ring-ring [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary hover:bg-primary/90 inline-flex h-11 items-center justify-center gap-2 rounded-md bg-gradient-to-r from-pink-500 to-purple-600 px-8 py-4 text-lg font-medium whitespace-nowrap text-white transition-colors hover:from-pink-600 hover:to-purple-700 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50"
-                  fdprocessedid="u1a8vn"
-                >
+                <button className="ring-offset-background focus-visible:ring-ring [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary hover:bg-primary/90 inline-flex h-11 items-center justify-center gap-2 rounded-md bg-gradient-to-r from-pink-500 to-purple-600 px-8 py-4 text-lg font-medium whitespace-nowrap text-white transition-colors hover:from-pink-600 hover:to-purple-700 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50">
                   Learn More
                 </button>
-                <button
-                  className="ring-offset-background focus-visible:ring-ring [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 inline-flex h-11 items-center justify-center gap-2 rounded-md border border-purple-400 bg-transparent px-8 py-4 text-lg font-medium whitespace-nowrap text-purple-400 transition-colors hover:bg-purple-400 hover:text-white focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 dark:border-purple-300 dark:text-purple-300 dark:hover:bg-purple-300 dark:hover:text-gray-900"
-                  fdprocessedid="2e2l4"
-                >
+                <button className="ring-offset-background focus-visible:ring-ring [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 inline-flex h-11 items-center justify-center gap-2 rounded-md border border-purple-400 bg-transparent px-8 py-4 text-lg font-medium whitespace-nowrap text-purple-400 transition-colors hover:bg-purple-400 hover:text-white focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 dark:border-purple-300 dark:text-purple-300 dark:hover:bg-purple-300 dark:hover:text-gray-900">
                   Help Us
                 </button>
               </div>
