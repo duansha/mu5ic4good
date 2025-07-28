@@ -7,7 +7,7 @@ const Brands = () => {
     <section className="pt-16">
       <div className="-mx-4 flex flex-wrap">
         <div className="w-full px-4">
-          <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 text-white dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950">
+          <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br bg-[url('/images/bg.PNG')] from-purple-900 via-blue-900 to-indigo-900 bg-right-top bg-no-repeat text-white dark:bg-[url('/images/bg.PNG')] dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950">
             <div className="absolute inset-0 bg-black/20 dark:bg-black/40"></div>
             <div className="absolute inset-0">
               <div className="absolute top-20 left-20 h-32 w-32 animate-pulse rounded-full bg-pink-500/20 blur-xl dark:bg-pink-500/30"></div>
@@ -48,7 +48,7 @@ const Brands = () => {
               <h1 className="mb-6 bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-6xl font-bold text-transparent md:text-8xl">
                 MU5IC4GOOD
               </h1>
-              <p className="mx-auto mb-8 max-w-2xl text-xl text-gray-200 md:text-2xl dark:text-gray-300">
+              <p className="mx-auto mb-8 max-w-2xl text-xl text-amber-950 md:text-2xl dark:text-gray-300">
                 Join us for a night of music, unity, and hope while raising
                 awareness for music therapy for children with autism.
               </p>
@@ -70,7 +70,9 @@ const Brands = () => {
                     <rect width="18" height="18" x="3" y="4" rx="2"></rect>
                     <path d="M3 10h18"></path>
                   </svg>
-                  <span>August 02, 2025 | 2:00 PM CDT </span>
+                  <span className="text-amber-950 dark:text-gray-300">
+                    August 02, 2025 | 2:00 PM CDT{" "}
+                  </span>
                 </div>
                 <div className="flex items-center text-lg">
                   <svg
@@ -87,7 +89,9 @@ const Brands = () => {
                     <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
                     <circle cx="12" cy="10" r="3"></circle>
                   </svg>
-                  <span>95th Street Library, Naperville, IL </span>
+                  <span className="text-amber-950 dark:text-gray-300">
+                    95th Street Library, Naperville, IL{" "}
+                  </span>
                 </div>
               </div>
               <div className="flex flex-col justify-center gap-4 sm:flex-row">
