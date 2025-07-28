@@ -28,12 +28,13 @@ const AboutSectionOne = () => {
                   About MU5IC4GOOD
                 </h1>
                 <p className="mx-auto max-w-3xl text-xl text-gray-200 md:text-2xl dark:text-gray-300">
-                  We're a passionate team of students—musicians, advocates, and
-                  changemakers—brought together by the belief that music can do
-                  more than entertain. We've seen its power to heal, connect,
-                  and transform lives, especially for children with autism. As
-                  MU5IC4GOOD, we're using our voices, our instruments, and our
-                  time to make the world a little brighter—one note at a time.
+                  We&#39;re a passionate team of students—musicians, advocates,
+                  and changemakers—brought together by the belief that music can
+                  do more than entertain. We&#39;ve seen its power to heal,
+                  connect, and transform lives, especially for children with
+                  autism. As MU5IC4GOOD, we&#39;re using our voices, our
+                  instruments, and our time to make the world a little
+                  brighter—one note at a time.
                 </p>
               </div>
             </div>
