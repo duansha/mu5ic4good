@@ -4,9 +4,20 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
+import { Great_Vibes } from "next/font/google";
 import "../styles/index.css";
+import { DynaPuff } from "next/font/google";
+
+export const dynaPuff = DynaPuff({
+  subsets: ["latin"],
+  weight: ["400"], // Optional: choose what you need
+});
 
 const inter = Inter({ subsets: ["latin"] });
+export const greatVibes = Great_Vibes({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export default function RootLayout({
   children,
@@ -21,7 +32,9 @@ export default function RootLayout({
       */}
       <head />
 
-      <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
+      <body
+        className={`bg-[#FCFCFC] dark:bg-black ${inter.className} ${dynaPuff.className}`}
+      >
         <Providers>
           <Header />
           {children}
@@ -34,4 +47,3 @@ export default function RootLayout({
 }
 
 import { Providers } from "./providers";
-

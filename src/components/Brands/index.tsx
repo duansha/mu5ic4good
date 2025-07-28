@@ -1,6 +1,5 @@
 import { Brand } from "@/types/brand";
 import Image from "next/image";
-import brandsData from "./brandsData";
 
 const Brands = () => {
   return (
@@ -15,10 +14,10 @@ const Brands = () => {
               <div className="absolute top-1/2 left-1/2 h-64 w-64 animate-pulse rounded-full bg-purple-500/20 blur-xl delay-500 dark:bg-purple-500/30"></div>
             </div>
             <div className="relative z-10 mx-auto max-w-4xl px-4 text-center">
-              <h1 className="mb-6 bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-6xl font-bold text-transparent md:text-8xl">
+              <p className="__className_168b81 mb-6 bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-5xl text-transparent md:text-8xl">
                 MU5IC4GOOD
-              </h1>
-              <p className="mx-auto mb-8 max-w-2xl text-4xl text-yellow-800 md:text-4xl dark:text-gray-300">
+              </p>
+              <p className="__className_a10525 mx-auto mb-6 max-w-2xl text-4xl text-yellow-800 md:text-4xl dark:text-gray-300">
                 Be The Change
               </p>
               <p className="mx-auto mb-8 max-w-2xl text-4xl font-bold text-yellow-800 md:text-5xl dark:text-gray-300">
