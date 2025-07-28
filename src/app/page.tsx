@@ -22,9 +22,6 @@ export default function Home() {
     <>
       <ScrollUp />
       <Brands />
-      <Hero />
-      <Features />
-      <Contact />
     </>
   );
 }

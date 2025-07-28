@@ -23,18 +23,19 @@ const AboutSectionOne = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div className="bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 py-20 text-white dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950">
-              <div className="mx-auto max-w-4xl px-4 text-center">
-                <h1 className="mb-6 text-5xl font-bold md:text-6xl">
-                  About MU5IC4GOOD
+              <div className="mx-auto max-w-4xl px-4">
+                <h1 className="mb-6 text-center text-5xl font-bold md:text-6xl">
+                  About US
                 </h1>
-                <p className="mx-auto max-w-3xl text-xl text-gray-200 md:text-2xl dark:text-gray-300">
-                  We&#39;re a passionate team of students—musicians, advocates,
-                  and changemakers—brought together by the belief that music can
-                  do more than entertain. We&#39;ve seen its power to heal,
-                  connect, and transform lives, especially for children with
+                <p className="mx-auto max-w-3xl text-left text-xl text-gray-200 md:text-2xl dark:text-gray-300">
+                  A passionate team of students from Naperville, we&#39;re
+                  musicians, advocates and changemakers, brought together by the
+                  belief that the universal language of music offers more than
+                  just entertainment. We&#39; have seen how music can heal,
+                  connect, and transform lives, especially for individuals with
                   autism. As MU5IC4GOOD, we&#39;re using our voices, our
-                  instruments, and our time to make the world a little
-                  brighter—one note at a time.
+                  instruments, and our time to make the world a little brighter
+                  - one heart at a time.
                 </p>
               </div>
             </div>

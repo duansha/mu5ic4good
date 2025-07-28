@@ -52,7 +52,7 @@ const Footer = () => {
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="/"
+                    href="https://www.facebook.com/people/Mu5ic4good/61577953505992/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -72,7 +72,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://www.facebook.com/people/Mu5ic4good/61577953505992/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -94,7 +94,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://www.instagram.com/mu5ic4good/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -110,7 +110,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://www.youtube.com/@mu5ic4good-naperville"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
