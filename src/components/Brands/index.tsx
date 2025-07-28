@@ -7,7 +7,6 @@ const Brands = () => {
       <div className="-mx-4 flex flex-wrap">
         <div className="w-full px-4">
           <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[url('/images/bg.PNG')] bg-top bg-no-repeat text-white dark:bg-[url('/images/bg.PNG')] dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950">
-            <div className="absolute inset-0 bg-black/20 dark:bg-black/40"></div>
             <div className="absolute inset-0">
               <div className="absolute top-20 left-20 h-32 w-32 animate-pulse rounded-full bg-pink-500/20 blur-xl dark:bg-pink-500/30"></div>
               <div className="absolute right-32 bottom-32 h-48 w-48 animate-pulse rounded-full bg-blue-500/20 blur-xl delay-1000 dark:bg-blue-500/30"></div>
@@ -24,7 +23,8 @@ const Brands = () => {
                 One Heart at a Time
               </p>
               <p className="mx-auto mb-8 max-w-2xl text-xs text-yellow-800 md:text-lg dark:text-gray-300">
-                Join us for inspiring music, heartfelt performance while raising
+                Join us for inspiring music and heartfelt performances while
+                raising
                 <br />
                 awareness and hope for music therapy for children with autism.
               </p>
