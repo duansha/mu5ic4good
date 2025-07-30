@@ -27,9 +27,9 @@ const Donates = () => {
                   Support Our Mission
                 </h1>
                 <p className="mx-auto max-w-3xl text-xl text-gray-200 md:text-2xl dark:text-gray-300">
-                  Help us provide music therapy programs for children with
-                  autism. Your donation makes a direct impact on young lives
-                  through the healing power of music.
+                  Support our music therapy programs for children with autism.
+                  Your contribution transforms young lives through the healing
+                  power of music.
                 </p>
               </div>
             </div>
@@ -44,10 +44,9 @@ const Donates = () => {
               Your Impact
             </h2>
             <p className="mx-auto max-w-3xl text-xl text-gray-600 dark:text-gray-300">
-              When you donate to MU5IC4GOOD, you&#39;re directly supporting
-              music therapy programs that help children with autism develop
-              communication skills, emotional expression, and social
-              connections.
+              By donating to MU5IC4GOOD, your directly fund music therapy
+              programs that empower children with autism to enhance their
+              communication, emotional expression, and social connections.
             </p>
           </div>
           <div className="mb-16 grid gap-8 md:grid-cols-3">
@@ -73,8 +72,8 @@ const Donates = () => {
                   Direct Impact
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  100% of donations go directly to music therapy programs for
-                  children with autism
+                  Every dollar donated goes straight to funding music therapy
+                  programs for children with autism.
                 </p>
               </div>
             </div>
@@ -103,8 +102,8 @@ const Donates = () => {
                   Community Support
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Join hundreds of supporters making a difference in
-                  children&#39;s lives
+                  United with countless supporters transforming the lives of
+                  children.
                 </p>
               </div>
             </div>
@@ -132,7 +131,7 @@ const Donates = () => {
                   Focused Mission
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Every dollar helps provide specialized music therapy sessions
+                  Every dollar supports tailored music therapy sessions.
                 </p>
               </div>
             </div>
@@ -144,7 +143,7 @@ const Donates = () => {
         <div className="mx-auto max-w-4xl px-4">
           <div className="mb-12 text-center">
             <h2 className="mb-6 text-4xl font-bold text-gray-900 dark:text-gray-100">
-              Make a Donation
+              Be The Change, One Heart at a Time
             </h2>
             <p className="mx-auto max-w-2xl text-xl text-gray-600 dark:text-gray-300">
               Support MU5IC4GOOD through our secure GoFundMe campaign. Every
@@ -157,7 +156,7 @@ const Donates = () => {
             <div className="p-0">
               <div className="bg-white p-6 text-center dark:bg-gray-700">
                 <h3 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
-                  Sustain MU5IC4GOOD - Support Music Therapy
+                  Help MU5IC4GOOD to Support Music Therapy
                 </h3>
                 <p className="mb-6 text-gray-600 dark:text-gray-300">
                   Click below to visit our GoFundMe campaign and make a secure

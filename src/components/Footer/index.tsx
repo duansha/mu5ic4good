@@ -1,14 +1,15 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import StayUPdated from "./StayUpdated";
 
 const Footer = () => {
   return (
     <>
       <footer className="dark:bg-gray-dark relative z-10 bg-gray-200 pt-12 md:pt-15 lg:pt-18">
         <div className="mx-auto max-w-6xl px-4">
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
+          <div className="mb-12 grid gap-8 md:grid-cols-4">
+            <div className="md:col-span-2">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <div className="mb-4 flex items-center">
                   <svg
@@ -151,7 +152,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
+            <div>
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <div className="mb-4 flex items-center">
                   <span className="text-2xl font-bold text-black dark:text-white">
@@ -227,6 +228,8 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+
+            {/*<StayUPdated />*/}
           </div>
 
           <div className="h-px w-full bg-linear-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>

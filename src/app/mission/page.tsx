@@ -2,6 +2,7 @@ import SingleBlog from "@/components/Blog/SingleBlog";
 import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Missions1 from "@/components/Missions";
+import Mission2 from "@/components/Missions/Mission2";
 
 import { Metadata } from "next";
 
@@ -15,6 +16,7 @@ const Missions = () => {
   return (
     <>
       <Missions1 />
+      <Mission2 />
     </>
   );
 };
