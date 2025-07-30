@@ -1,22 +1,22 @@
 import SingleBlog from "@/components/Blog/SingleBlog";
 import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import Missions1 from "@/components/Missions";
+import Donates from "@/components/Donates";
 
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mission Page | MU5IC4GOOD",
-  description: "This is Mission Page for MU5IC4GOOD",
+  title: "Donations Page | MU5IC4GOOD",
+  description: "This is Donations Page for MU5IC4GOOD",
   // other metadata
 };
 
-const Missions = () => {
+const Donations = () => {
   return (
     <>
-      <Missions1 />
+      <Donates />
     </>
   );
 };
 
-export default Missions;
+export default Donations;
