@@ -27,15 +27,15 @@ const AboutSectionOne = () => {
                 <h1 className="mb-6 text-center text-5xl font-bold md:text-6xl">
                   About US
                 </h1>
-                <p className="mx-auto max-w-3xl text-left text-xl text-gray-200 md:text-2xl dark:text-gray-300">
+                <p className="max-w-3'xl mx-auto text-left text-xl text-gray-200 md:text-2xl dark:text-gray-300">
                   A passionate team of students from Naperville, we&#39;re
                   musicians, advocates and changemakers, brought together by the
                   belief that the universal language of music offers more than
-                  just entertainment. We&#39; have seen how music can heal,
-                  connect, and transform lives, especially for individuals with
-                  autism. As MU5IC4GOOD, we&#39;re using our voices, our
-                  instruments, and our time to make the world a little brighter
-                  - one heart at a time.
+                  just entertainment. We have seen how music can heal, connect,
+                  and transform lives, especially for individuals with autism.
+                  As MU5IC4GOOD, we&#39;re using our voices, our instruments,
+                  and our time to make the world a little brighter - one heart
+                  at a time.
                 </p>
               </div>
             </div>

@@ -51,8 +51,8 @@ const Missions1 = () => {
                 Each child with autism should have access to music therapy, a
                 transformative tool that enhance communication, supports
                 emotional development, and foster deep connections. Music
-                therapy is more than beneficial-it's life-changing. Through the
-                universal language of music and specialized therapeutic
+                therapy is more than beneficial-it&#39;s life-changing. Through
+                the universal language of music and specialized therapeutic
                 approaches, music therapy uniquely engages children with autism,
                 helping them build vital life skills, express themselves, and
                 form meaningful, lasting connections with the world around them.
