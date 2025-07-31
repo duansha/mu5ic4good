@@ -50,7 +50,7 @@ const Footer = () => {
                     MU5IC4GOOD
                   </span>*/}
                 </div>
-                <p className="dark:text-body-color-dark text-dark-gray mb-9 text-base leading-relaxed">
+                <p className="dark:text-body-color-dark text-footer mb-9 text-base leading-relaxed">
                   Bringing together music lovers and well-doers to create
                   positive change through the universal language of music.
                 </p>
@@ -60,7 +60,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="dark:text-body-color-dark dark:hover:text-primary text-dark-gray mr-6 duration-300 hover:text-white"
+                    className="dark:text-body-color-dark dark:hover:text-primary text-footer mr-6 duration-300 hover:text-white"
                   >
                     <svg
                       width="18"
@@ -80,7 +80,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="dark:text-body-color-dark dark:hover:text-primary text-dark-gray mr-6 duration-300 hover:text-white"
+                    className="dark:text-body-color-dark dark:hover:text-primary text-footer mr-6 duration-300 hover:text-white"
                   >
                     <svg
                       width="18"
@@ -102,7 +102,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="dark:text-body-color-dark dark:hover:text-primary text-dark-gray mr-6 duration-300 hover:text-white"
+                    className="dark:text-body-color-dark dark:hover:text-primary text-footer mr-6 duration-300 hover:text-white"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -133,7 +133,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="dark:text-body-color-dark dark:hover:text-primary text-dark-gray duration-300 hover:text-white"
+                    className="dark:text-body-color-dark dark:hover:text-primary text-footer duration-300 hover:text-white"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -158,7 +158,7 @@ const Footer = () => {
             <div>
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <div className="mb-4 flex items-center">
-                  <span className="text-dark-gray text-2xl font-bold dark:text-white">
+                  <span className="text-footer text-2xl font-bold dark:text-white">
                     Contact Us
                   </span>
                 </div>
@@ -181,7 +181,7 @@ const Footer = () => {
                     </svg>
                     <a
                       href="mailto:info@mu5ic4good.org"
-                      className="dark:text-body-color-dark text-dark-gray transition-colors hover:text-white dark:hover:text-gray-300"
+                      className="dark:text-body-color-dark text-footer transition-colors hover:text-white dark:hover:text-gray-300"
                     >
                       info@mu5ic4good.org
                     </a>
@@ -203,7 +203,7 @@ const Footer = () => {
                     </svg>
                     <a
                       href="tel:+13313320948"
-                      className="dark:text-body-color-dark text-dark-gray transition-colors hover:text-white dark:hover:text-gray-300"
+                      className="dark:text-body-color-dark text-footer transition-colors hover:text-white dark:hover:text-gray-300"
                     >
                       + 1 (331) 332-0948
                     </a>
@@ -224,7 +224,7 @@ const Footer = () => {
                       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
                       <circle cx="12" cy="10" r="3"></circle>
                     </svg>
-                    <span className="dark:text-body-color-dark text-dark-gray transition-colors">
+                    <span className="dark:text-body-color-dark text-footer transition-colors">
                       Naperville, IL 60540
                     </span>
                   </div>

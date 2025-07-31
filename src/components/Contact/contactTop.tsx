@@ -18,7 +18,7 @@ const ContactTop = () => {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="lucide lucide-message-circle mx-auto mb-6 h-16 w-16 text-pink-400"
+                  className="lucide lucide-message-circle text-logo-dark mx-auto mb-6 h-16 w-16"
                 >
                   <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
                 </svg>

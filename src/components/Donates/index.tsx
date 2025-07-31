@@ -18,7 +18,7 @@ const Donates = () => {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="lucide lucide-dollar-sign mx-auto mb-6 h-16 w-16 text-pink-400"
+                  className="lucide lucide-dollar-sign text-logo-dark mx-auto mb-6 h-16 w-16"
                 >
                   <line x1="12" x2="12" y1="2" y2="22"></line>
                   <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
@@ -37,7 +37,7 @@ const Donates = () => {
         </div>
       </section>
 
-      <section className="bg-white py-20 dark:bg-gray-900">
+      <section className="bg-bg py-20 dark:bg-gray-900">
         <div className="mx-auto max-w-6xl px-4">
           <div className="mb-16 text-center">
             <h2 className="mb-6 text-4xl font-bold text-gray-900 dark:text-gray-100">
@@ -52,7 +52,7 @@ const Donates = () => {
           <div className="mb-16 grid gap-8 md:grid-cols-3">
             <div className="bg-card text-card-foreground rounded-lg border-0 text-center shadow-lg transition-shadow hover:shadow-xl dark:bg-gray-800 dark:shadow-gray-900/50">
               <div className="p-8">
-                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-pink-600">
+                <div className="from-logo to-logo-dark mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -79,7 +79,7 @@ const Donates = () => {
             </div>
             <div className="bg-card text-card-foreground rounded-lg border-0 text-center shadow-lg transition-shadow hover:shadow-xl dark:bg-gray-800 dark:shadow-gray-900/50">
               <div className="p-8">
-                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-pink-600">
+                <div className="from-logo to-logo-dark mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -109,7 +109,7 @@ const Donates = () => {
             </div>
             <div className="bg-card text-card-foreground rounded-lg border-0 text-center shadow-lg transition-shadow hover:shadow-xl dark:bg-gray-800 dark:shadow-gray-900/50">
               <div className="p-8">
-                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-pink-600">
+                <div className="from-logo to-logo-dark mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -166,7 +166,7 @@ const Donates = () => {
                   href="https://www.gofundme.com/f/sustain-mu5ic4good-support-music-therapy"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block transform rounded-lg bg-gradient-to-r from-pink-500 to-purple-600 px-8 py-4 text-lg font-semibold text-white transition-all hover:scale-105 hover:from-pink-600 hover:to-purple-700"
+                  className="from-logo to-logo-dark hover:from-logo-light hover:to-logo inline-block transform rounded-lg bg-gradient-to-r px-8 py-4 text-lg font-semibold text-white transition-all hover:scale-105"
                 >
                   Donate on GoFundMe
                 </a>
@@ -213,7 +213,7 @@ const Donates = () => {
         </div>
       </section>
 
-      <section className="bg-white py-20 dark:bg-gray-900">
+      <section className="bg-bottom-banner-bg py-20 dark:bg-gray-900">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="mb-6 text-4xl font-bold text-gray-900 dark:text-gray-100">
             Other Ways to Help
@@ -235,7 +235,7 @@ const Donates = () => {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="lucide lucide-users mx-auto mb-4 h-12 w-12 text-purple-500"
+                  className="lucide lucide-users text-logo mx-auto mb-4 h-12 w-12"
                 >
                   <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
                   <circle cx="9" cy="7" r="4"></circle>
@@ -254,7 +254,7 @@ const Donates = () => {
                   href="https://www.instagram.com/mu5ic4good/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-medium text-purple-600 hover:underline dark:text-purple-400"
+                  className="text-logo-dark dark:text-logo-light font-medium hover:underline"
                 >
                   Follow @mu5ic4good
                 </a>
@@ -272,7 +272,7 @@ const Donates = () => {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="lucide lucide-heart mx-auto mb-4 h-12 w-12 text-pink-500"
+                  className="lucide lucide-heart text-logo mx-auto mb-4 h-12 w-12"
                 >
                   <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
                 </svg>
@@ -285,7 +285,7 @@ const Donates = () => {
                 </p>
                 <a
                   href="/contact"
-                  className="font-medium text-purple-600 hover:underline dark:text-purple-400"
+                  className="text-logo-dark dark:text-logo-light font-medium hover:underline"
                 >
                   Get Involved
                 </a>

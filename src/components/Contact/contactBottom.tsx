@@ -3,7 +3,7 @@ import SectionTitle from "../Common/SectionTitle";
 const ContactTop = () => {
   return (
     <>
-      <section className="bg-white py-20 dark:bg-gray-900">
+      <section className="bg-bottom-banner-bg py-20 dark:bg-gray-900">
         <div className="mx-auto max-w-6xl px-4">
           <div className="grid gap-12 lg:grid-cols-2">
             <div>
@@ -80,7 +80,7 @@ const ContactTop = () => {
                       ></textarea>
                     </div>
                     <button
-                      className="ring-offset-background focus-visible:ring-ring [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary hover:bg-primary/90 inline-flex h-10 w-full items-center justify-center gap-2 rounded-md bg-gradient-to-r from-pink-500 to-purple-600 px-4 py-3 text-sm font-medium whitespace-nowrap text-white transition-colors hover:from-pink-600 hover:to-purple-700 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50"
+                      className="ring-offset-background focus-visible:ring-ring [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary hover:bg-primary/90 inline-flex h-10 w-full items-center justify-center gap-2 rounded-md bg-gradient-to-r from-gray-400 to-gray-500 px-4 py-3 text-sm font-medium whitespace-nowrap text-white transition-colors hover:from-gray-300 hover:to-gray-400 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50"
                       type="submit"
                     >
                       <svg
@@ -112,7 +112,7 @@ const ContactTop = () => {
                 <div className="bg-card text-card-foreground rounded-lg border-0 shadow-lg transition-shadow hover:shadow-xl dark:bg-gray-800 dark:shadow-gray-900/50">
                   <div className="p-6">
                     <div className="flex items-start space-x-4">
-                      <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-purple-500 to-pink-600">
+                      <div className="from-logo to-logo-dark flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-gradient-to-br">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -152,7 +152,7 @@ const ContactTop = () => {
                 <div className="bg-card text-card-foreground rounded-lg border-0 shadow-lg transition-shadow hover:shadow-xl dark:bg-gray-800 dark:shadow-gray-900/50">
                   <div className="p-6">
                     <div className="flex items-start space-x-4">
-                      <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-purple-500 to-pink-600">
+                      <div className="from-logo to-logo-dark flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-gradient-to-br">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"

@@ -39,7 +39,7 @@ const Sponsorship3 = () => {
               <div className="flex flex-col space-y-1.5 bg-amber-50 p-6 pt-8 text-center dark:bg-amber-900/20">
                 <div className="mb-4 text-4xl">🥉</div>
                 <div className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
-                  Bronze Sponsor
+                  Bronze
                 </div>
                 <div className="mt-4 text-3xl font-bold text-gray-900 dark:text-gray-100">
                   $25+
@@ -117,7 +117,7 @@ const Sponsorship3 = () => {
               <div className="flex flex-col space-y-1.5 bg-gray-50 p-6 pt-8 text-center dark:bg-gray-800/50">
                 <div className="mb-4 text-4xl">🥈</div>
                 <div className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
-                  Silver Sponsor
+                  Silver
                 </div>
                 <div className="mt-4 text-3xl font-bold text-gray-900 dark:text-gray-100">
                   $50+
@@ -192,13 +192,13 @@ const Sponsorship3 = () => {
               </div>
             </div>
             <div className="bg-card text-card-foreground relative overflow-hidden rounded-lg border-2 border-purple-500 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl dark:bg-gray-700 dark:shadow-gray-900/50">
-              <div className="absolute top-0 right-0 left-0 bg-gradient-to-r from-purple-500 to-pink-600 py-2 text-center text-sm font-semibold text-white">
+              <div className="absolute top-0 right-0 left-0 bg-gradient-to-r from-gray-300 to-gray-400 py-2 text-center text-sm font-semibold text-white">
                 Most Popular
               </div>
               <div className="flex flex-col space-y-1.5 bg-yellow-50 p-6 pt-12 text-center dark:bg-yellow-900/20">
                 <div className="mb-4 text-4xl">🥇</div>
                 <div className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
-                  Gold Sponsor
+                  Gold
                 </div>
                 <div className="mt-4 text-3xl font-bold text-gray-900 dark:text-gray-100">
                   $100+
@@ -286,20 +286,20 @@ const Sponsorship3 = () => {
                 </ul>
                 <button
                   onClick={scrollToBottom}
-                  className="ring-offset-background focus-visible:ring-ring [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary hover:bg-primary/90 inline-flex h-10 w-full items-center justify-center gap-2 rounded-md bg-gradient-to-r from-purple-500 to-pink-600 px-4 py-3 text-lg font-semibold whitespace-nowrap text-white transition-colors hover:from-purple-600 hover:to-pink-700 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50"
+                  className="ring-offset-background focus-visible:ring-ring [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary hover:bg-primary/90 inline-flex h-10 w-full items-center justify-center gap-2 rounded-md bg-gradient-to-r from-blue-500 to-blue-600 px-4 py-3 text-lg font-semibold whitespace-nowrap text-white transition-colors hover:from-blue-600 hover:to-blue-700 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50"
                 >
                   Select
                 </button>
               </div>
             </div>
             <div className="bg-card text-card-foreground relative overflow-hidden rounded-lg border-2 border-pink-500 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl dark:bg-gray-700 dark:shadow-gray-900/50">
-              <div className="absolute top-0 right-0 left-0 bg-gradient-to-r from-pink-500 to-purple-600 py-2 text-center text-sm font-semibold text-white">
+              <div className="absolute top-0 right-0 left-0 bg-gradient-to-r from-gray-400 to-gray-500 py-2 text-center text-sm font-semibold text-white">
                 Premium Partnership
               </div>
               <div className="flex flex-col space-y-1.5 bg-purple-50 p-6 pt-12 text-center dark:bg-purple-900/20">
                 <div className="mb-4 text-4xl">💎</div>
                 <div className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
-                  Platinum Sponsor
+                  Platinum
                 </div>
                 <div className="mt-4 text-3xl font-bold text-gray-900 dark:text-gray-100">
                   $200+
@@ -405,7 +405,7 @@ const Sponsorship3 = () => {
                 </ul>
                 <button
                   onClick={scrollToBottom}
-                  className="ring-offset-background focus-visible:ring-ring [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary hover:bg-primary/90 inline-flex h-10 w-full items-center justify-center gap-2 rounded-md bg-gradient-to-r from-pink-500 to-purple-600 px-4 py-3 text-lg font-semibold whitespace-nowrap text-white transition-colors hover:from-pink-600 hover:to-purple-700 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50"
+                  className="ring-offset-background focus-visible:ring-ring [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary hover:bg-primary/90 inline-flex h-10 w-full items-center justify-center gap-2 rounded-md bg-gradient-to-r from-blue-500 to-blue-600 px-4 py-3 text-lg font-semibold whitespace-nowrap text-white transition-colors hover:from-blue-600 hover:to-blue-700 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50"
                 >
                   Select
                 </button>
@@ -461,17 +461,14 @@ const Sponsorship3 = () => {
                   </svg>
                   {/*https://www.svgrepo.com/svg/476560/diamond?edit=true */}
                   <div className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
-                    Platinum Sponsors
+                    Platinum
                   </div>
                 </div>
               </div>
               <div className="p-8 text-center">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
-                  Harrison Fitness
+                  Harrison Fitness, EnergizAI
                 </h3>
-                <p className="mt-2 text-gray-600 dark:text-gray-300">
-                  Thank you for your generous support!
-                </p>
               </div>
             </div>
 
@@ -494,17 +491,14 @@ const Sponsorship3 = () => {
                     <path d="M5 21h14"></path>
                   </svg>
                   <div className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
-                    Gold Sponsors
+                    Gold
                   </div>
                 </div>
               </div>
               <div className="p-8 text-center">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
-                  Girgis &amp; Ito Orthodontics
+                  Girgis, Ito Orthodontics
                 </h3>
-                <p className="mt-2 text-gray-600 dark:text-gray-300">
-                  Thank you for your generous support!
-                </p>
               </div>
             </div>
             <div className="bg-card text-card-foreground rounded-lg border-0 shadow-lg dark:bg-gray-800 dark:shadow-gray-900/50">
@@ -525,20 +519,14 @@ const Sponsorship3 = () => {
                     <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
                   </svg>
                   <div className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
-                    Silver Sponsors
+                    Silver
                   </div>
                 </div>
               </div>
               <div className="p-8 text-center">
-                <h3 className="pb-5 text-2xl font-semibold text-gray-900 dark:text-gray-100">
-                  sno problems
-                </h3>
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
-                  Fresh Thyme
+                  sno problems, Fresh Thyme
                 </h3>
-                <p className="mt-2 text-gray-600 dark:text-gray-300">
-                  Thank you for your generous support!
-                </p>
               </div>
             </div>
             <div className="bg-card text-card-foreground rounded-lg border-0 shadow-lg dark:bg-gray-800 dark:shadow-gray-900/50">
@@ -560,7 +548,7 @@ const Sponsorship3 = () => {
                     <circle cx="12" cy="8" r="6"></circle>
                   </svg>
                   <div className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
-                    Bronze Sponsors
+                    Bronze
                   </div>
                 </div>
               </div>
@@ -568,9 +556,6 @@ const Sponsorship3 = () => {
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
                   Gia Mia Naperville, Avocado Theory
                 </h3>
-                <p className="mt-2 text-gray-600 dark:text-gray-300">
-                  Thank you for your generous support!
-                </p>
               </div>
             </div>
 
@@ -600,9 +585,6 @@ const Sponsorship3 = () => {
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
                   Naperville Music
                 </h3>
-                <p className="mt-2 text-gray-600 dark:text-gray-300">
-                  Thank you for your generous support!
-                </p>
               </div>
             </div>
           </div>
@@ -611,13 +593,13 @@ const Sponsorship3 = () => {
 
       <section
         id="cta-section"
-        className="bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 py-20 text-white dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950"
+        className="bg-bottom-banner-bg py-20 text-gray-700 dark:bg-gray-800 dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950 dark:text-white"
       >
         <div ref={bottomRef} className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="mb-6 text-4xl font-bold">
             Ready to Make a Difference?
           </h2>
-          <p className="mx-auto mb-8 max-w-2xl text-xl text-gray-200 dark:text-gray-300">
+          <p className="mx-auto mb-8 max-w-2xl text-xl text-gray-700 dark:text-gray-300">
             Join us as a sponsor and help us create an unforgettable event while
             supporting music therapy for children with autism.
           </p>
@@ -640,7 +622,7 @@ const Sponsorship3 = () => {
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                 </svg>
                 <h3 className="mb-2 text-lg font-semibold">Email Us</h3>
-                <p className="mb-4 text-gray-200 dark:text-gray-300">
+                <p className="mb-4 text-gray-700 dark:text-gray-300">
                   info@mu5ic4good.org
                 </p>
                 <button
@@ -668,7 +650,7 @@ const Sponsorship3 = () => {
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
                 <h3 className="mb-2 text-lg font-semibold">Call Us</h3>
-                <p className="mb-4 text-gray-200 dark:text-gray-300">
+                <p className="mb-4 text-gray-700 dark:text-gray-300">
                   +1 (331) 332-0948
                 </p>
                 <button
@@ -681,7 +663,7 @@ const Sponsorship3 = () => {
             </div>
           </div>
           <div className="mt-8">
-            <p className="text-sm text-gray-300 dark:text-gray-400">
+            <p className="text-sm text-gray-700 dark:text-gray-400">
               We&#39;ll respond to all sponsorship inquiries within 24 hours
             </p>
           </div>

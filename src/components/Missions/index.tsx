@@ -19,7 +19,7 @@ const Missions1 = () => {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="lucide lucide-target mx-auto mb-6 h-16 w-16 text-pink-400"
+                  className="lucide lucide-target text-logo-dark mx-auto mb-6 h-16 w-16"
                 >
                   <circle cx="12" cy="12" r="10"></circle>
                   <circle cx="12" cy="12" r="6"></circle>
@@ -40,7 +40,7 @@ const Missions1 = () => {
         </div>
       </section>
 
-      <section className="bg-white py-20 dark:bg-gray-900">
+      <section className="bg-bg py-20 dark:bg-gray-900">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div className="mx-auto max-w-4xl px-4">

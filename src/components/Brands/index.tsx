@@ -6,7 +6,7 @@ const Brands = () => {
     <section className="pt-16">
       <div className="-mx-4 flex flex-wrap">
         <div className="w-full px-4">
-          <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[url('/images/bg.PNG')] bg-top bg-no-repeat text-white dark:bg-[url('/images/bg.PNG')] dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950">
+          <div className="bg-bg dark:bg-gray-dark relative flex min-h-screen items-center justify-center overflow-hidden bg-[url('/images/bg.PNG')] bg-top bg-no-repeat text-white dark:bg-[url('/images/bg.PNG')] dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950">
             <div className="absolute inset-0">
               {/*<div className="absolute top-20 left-20 h-32 w-32 animate-pulse rounded-full bg-pink-500/20 blur-xl dark:bg-pink-500/30"></div>*/}
               <div className="absolute right-32 bottom-32 h-48 w-48 animate-pulse rounded-full bg-blue-200/20 blur-xl delay-1000 dark:bg-blue-200/30"></div>

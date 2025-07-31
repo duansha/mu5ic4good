@@ -3,7 +3,7 @@ import Image from "next/image";
 const Sponsorship2 = () => {
   return (
     <>
-      <section className="bg-white py-20 dark:bg-gray-900">
+      <section className="bg-bg py-20 dark:bg-gray-900">
         <div className="mx-auto max-w-6xl px-4">
           <div className="mb-16 text-center">
             <h2 className="mb-6 text-4xl font-bold text-gray-900 dark:text-gray-100">
@@ -18,7 +18,7 @@ const Sponsorship2 = () => {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div className="bg-card text-card-foreground rounded-lg border-0 text-center shadow-lg transition-shadow hover:shadow-xl dark:bg-gray-800 dark:shadow-gray-900/50">
               <div className="p-8">
-                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-pink-600">
+                <div className="from-logo to-logo-dark mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -46,7 +46,7 @@ const Sponsorship2 = () => {
             </div>
             <div className="bg-card text-card-foreground rounded-lg border-0 text-center shadow-lg transition-shadow hover:shadow-xl dark:bg-gray-800 dark:shadow-gray-900/50">
               <div className="p-8">
-                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-pink-600">
+                <div className="from-logo to-logo-dark mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -77,7 +77,7 @@ const Sponsorship2 = () => {
             </div>
             <div className="bg-card text-card-foreground rounded-lg border-0 text-center shadow-lg transition-shadow hover:shadow-xl dark:bg-gray-800 dark:shadow-gray-900/50">
               <div className="p-8">
-                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-pink-600">
+                <div className="from-logo to-logo-dark mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -106,7 +106,7 @@ const Sponsorship2 = () => {
             </div>
             <div className="bg-card text-card-foreground rounded-lg border-0 text-center shadow-lg transition-shadow hover:shadow-xl dark:bg-gray-800 dark:shadow-gray-900/50">
               <div className="p-8">
-                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-pink-600">
+                <div className="from-logo to-logo-dark mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
