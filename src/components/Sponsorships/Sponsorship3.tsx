@@ -16,8 +16,8 @@ const Sponsorship3 = () => {
     window.location.href = `mailto:${email}`;
   };
   const handleCallNow = () => {
-    //+1 (630) 281-0837
-    window.location.href = "tel:+16302810837"; // Replace with your number
+    //+1 (331) 332-0948
+    window.location.href = "tel:+13313320948"; // Replace with your number
   };
 
   return (
@@ -299,10 +299,10 @@ const Sponsorship3 = () => {
               <div className="flex flex-col space-y-1.5 bg-purple-50 p-6 pt-12 text-center dark:bg-purple-900/20">
                 <div className="mb-4 text-4xl">💎</div>
                 <div className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
-                  Diamond Sponsor
+                  Platinum Sponsor
                 </div>
                 <div className="mt-4 text-3xl font-bold text-gray-900 dark:text-gray-100">
-                  $250+
+                  $200+
                 </div>
               </div>
               <div className="p-6 px-6 pt-0 pb-8">
@@ -438,6 +438,44 @@ const Sponsorship3 = () => {
           </div>
           <div className="mx-auto max-w-3xl space-y-6">
             <div className="bg-card text-card-foreground rounded-lg border-0 shadow-lg dark:bg-gray-800 dark:shadow-gray-900/50">
+              <div className="flex flex-col space-y-1.5 border-b border-gray-100 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/50">
+                <div className="flex items-center justify-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-star mr-2 h-6 w-6 text-gray-600 dark:text-gray-400"
+                  >
+                    <path
+                      d="M27.467 10.667l-6.293-7.467h-14.4l-6.293 7.467-0.48 0.533 0.427 0.533 13.547 17.067 13.973-17.6-0.48-0.533zM26.080 10.667h-10.72l5.333-6.347 5.387 6.347zM13.92 10.667l-5.547-6.4h10.987l-5.44 6.4zM7.147 4.427l5.387 6.24h-10.667l5.28-6.24zM13.44 11.733v14.667l-11.68-14.667h11.68zM14.507 26.4v-14.667h11.627l-11.627 14.667z"
+                      fill="#404040"
+                    >
+                      {" "}
+                    </path>
+                  </svg>
+                  {/*https://www.svgrepo.com/svg/476560/diamond?edit=true */}
+                  <div className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
+                    Platinum Sponsors
+                  </div>
+                </div>
+              </div>
+              <div className="p-8 text-center">
+                <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
+                  Harrison Fitness
+                </h3>
+                <p className="mt-2 text-gray-600 dark:text-gray-300">
+                  Thank you for your generous support!
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-card text-card-foreground rounded-lg border-0 shadow-lg dark:bg-gray-800 dark:shadow-gray-900/50">
               <div className="flex flex-col space-y-1.5 border-b border-yellow-100 bg-yellow-50 p-6 dark:border-yellow-800 dark:bg-yellow-900/20">
                 <div className="flex items-center justify-center">
                   <svg
@@ -492,8 +530,11 @@ const Sponsorship3 = () => {
                 </div>
               </div>
               <div className="p-8 text-center">
-                <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
+                <h3 className="pb-5 text-2xl font-semibold text-gray-900 dark:text-gray-100">
                   sno problems
+                </h3>
+                <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
+                  Fresh Thyme
                 </h3>
                 <p className="mt-2 text-gray-600 dark:text-gray-300">
                   Thank you for your generous support!
@@ -526,6 +567,38 @@ const Sponsorship3 = () => {
               <div className="p-8 text-center">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
                   Gia Mia Naperville, Avocado Theory
+                </h3>
+                <p className="mt-2 text-gray-600 dark:text-gray-300">
+                  Thank you for your generous support!
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-card text-card-foreground rounded-lg border-0 shadow-lg dark:bg-gray-800 dark:shadow-gray-900/50">
+              <div className="flex flex-col space-y-1.5 border-b border-gray-100 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/50">
+                <div className="flex items-center justify-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-star mr-2 h-6 w-6 text-gray-600 dark:text-gray-400"
+                  >
+                    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                  </svg>
+                  <div className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
+                    Special Sponsors
+                  </div>
+                </div>
+              </div>
+              <div className="p-8 text-center">
+                <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
+                  Naperville Music
                 </h3>
                 <p className="mt-2 text-gray-600 dark:text-gray-300">
                   Thank you for your generous support!
@@ -596,7 +669,7 @@ const Sponsorship3 = () => {
                 </svg>
                 <h3 className="mb-2 text-lg font-semibold">Call Us</h3>
                 <p className="mb-4 text-gray-200 dark:text-gray-300">
-                  +1 (630) 281-0837
+                  +1 (331) 332-0948
                 </p>
                 <button
                   onClick={handleCallNow}

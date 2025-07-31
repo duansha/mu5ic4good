@@ -6,7 +6,7 @@ const Donates = () => {
       <section className="pt-16">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
-            <div className="bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 py-20 pt-16 text-white dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950">
+            <div className="bg-banner-bg text-banner py-20 pt-16 dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950">
               <div className="mx-auto max-w-4xl px-4 text-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -27,9 +27,9 @@ const Donates = () => {
                   Support Our Mission
                 </h1>
                 <p className="mx-auto max-w-3xl text-xl text-gray-200 md:text-2xl dark:text-gray-300">
-                  Support our music therapy programs for children with autism.
-                  Your contribution transforms young lives through the healing
-                  power of music.
+                  Help us support our music therapy programs for children with
+                  autism. Your contribution transforms young lives through the
+                  healing power of music.
                 </p>
               </div>
             </div>
@@ -102,7 +102,7 @@ const Donates = () => {
                   Community Support
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  United with countless supporters transforming the lives of
+                  United with countless supporters to transform the lives of
                   children.
                 </p>
               </div>
@@ -131,7 +131,7 @@ const Donates = () => {
                   Focused Mission
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Every dollar supports tailored music therapy sessions.
+                  Every dollar helps support specialized music therapy sessions.
                 </p>
               </div>
             </div>
@@ -220,8 +220,7 @@ const Donates = () => {
           </h2>
           <p className="mx-auto mb-8 max-w-2xl text-xl text-gray-600 dark:text-gray-300">
             Can&#39;t donate right now? There are other meaningful ways to
-            support our mission and help children with autism through music
-            therapy.
+            support our mission and help children with autism.
           </p>
           <div className="grid gap-8 md:grid-cols-2">
             <div className="bg-card text-card-foreground rounded-lg border-0 shadow-lg dark:bg-gray-800 dark:shadow-gray-900/50">
@@ -281,8 +280,8 @@ const Donates = () => {
                   Volunteer
                 </h3>
                 <p className="mb-4 text-gray-600 dark:text-gray-300">
-                  Join our team of volunteers and help us organize events,
-                  spread awareness, and support our programs directly.
+                  Join our team of volunteers and help us organize events or
+                  perform at our scheduled events.
                 </p>
                 <a
                   href="/contact"

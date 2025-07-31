@@ -57,7 +57,8 @@ const Header = () => {
                     sticky ? "py-5 lg:py-2" : "py-8"
                   } `}
                 >
-                  <svg
+                  <Image src="/images/bg.png" width="50" height="50" alt="" />
+                  {/*<svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -86,7 +87,7 @@ const Header = () => {
                     className="lucide lucide-heart h-6 w-6 text-red-500"
                   >
                     <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
-                  </svg>
+                  </svg>*/}
                 </Link>
               </div>
               <div className="flex w-60 max-w-full px-1 xl:mr-12">
@@ -96,7 +97,7 @@ const Header = () => {
                     sticky ? "py-5 lg:py-2" : "py-8"
                   } `}
                 >
-                  <span className="bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-2xl font-bold text-transparent">
+                  <span className="__className_168b81 bg-logo bg-clip-text text-2xl font-bold text-transparent">
                     MU5IC4GOOD
                   </span>
                 </Link>

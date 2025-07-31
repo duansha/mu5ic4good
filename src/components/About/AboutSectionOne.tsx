@@ -22,12 +22,12 @@ const AboutSectionOne = () => {
       <section className="pt-16">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
-            <div className="bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 py-20 text-white dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950">
+            <div className="bg-banner-bg text-banner py-20 dark:bg-gray-800 dark:text-gray-200">
               <div className="mx-auto max-w-4xl px-4">
                 <h1 className="mb-6 text-center text-5xl font-bold md:text-6xl">
                   About US
                 </h1>
-                <p className="max-w-3'xl mx-auto text-left text-xl text-gray-200 md:text-2xl dark:text-gray-300">
+                <p className="max-w-3'xl mx-auto text-left text-xl md:text-2xl">
                   A passionate team of students from Naperville, we&#39;re
                   musicians, advocates and changemakers, brought together by the
                   belief that the universal language of music offers more than

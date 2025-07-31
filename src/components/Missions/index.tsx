@@ -7,7 +7,7 @@ const Missions1 = () => {
       <section className="pt-16">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
-            <div className="bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 py-20 pt-16 text-white dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950">
+            <div className="bg-banner-bg text-banner py-20 pt-16 dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950">
               <div className="mx-auto max-w-4xl px-4 text-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -29,8 +29,8 @@ const Missions1 = () => {
                   Our Mission
                 </h1>
                 <p className="mx-auto max-w-3xl text-xl text-gray-200 md:text-2xl dark:text-gray-300">
-                  To harness the transformative power of music to create a
-                  positive impact through advocating music therapy that helps
+                  Harness the transformative power of music to create a positive
+                  impact by advocating for music therapy, which helps
                   individuals with autism develop emotional expression,
                   communication skills, and social connections.
                 </p>
@@ -50,12 +50,13 @@ const Missions1 = () => {
               <p className="mx-auto max-w-3xl pb-10 text-left text-xl text-gray-600 md:text-2xl dark:text-gray-100">
                 Each child with autism should have access to music therapy, a
                 transformative tool that enhance communication, supports
-                emotional development, and foster deep connections. Music
-                therapy is more than beneficial-it&#39;s life-changing. Through
-                the universal language of music and specialized therapeutic
-                approaches, music therapy uniquely engages children with autism,
-                helping them build vital life skills, express themselves, and
-                form meaningful, lasting connections with the world around them.
+                emotional development, and foster deep connections. Beyond just
+                being helpful, music therapy has the power to transform lives.
+                Through the universal language of music and specialized
+                therapeutic approaches, music therapy helps engage children with
+                autism, helping them build vital life skills, express
+                themselves, and form meaningful, lasting connections with the
+                world around them.
               </p>
             </div>
           </div>

@@ -6,13 +6,13 @@ import StayUPdated from "./StayUpdated";
 const Footer = () => {
   return (
     <>
-      <footer className="dark:bg-gray-dark relative z-10 bg-gray-200 pt-12 md:pt-15 lg:pt-18">
+      <footer className="dark:bg-gray-dark bg-footer-bg relative z-10 pt-12 md:pt-15 lg:pt-18">
         <div className="mx-auto max-w-6xl px-4">
           <div className="mb-12 grid gap-8 md:grid-cols-4">
             <div className="md:col-span-2">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <div className="mb-4 flex items-center">
-                  <svg
+                  {/*<svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -41,15 +41,18 @@ const Footer = () => {
                     className="lucide lucide-heart mr-3 h-6 w-6 text-red-400"
                   >
                     <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
-                  </svg>
-                  <span className="text-2xl font-bold text-black dark:text-white">
+                  </svg>*/}
+                  <Image src="/images/bg.png" width="50" height="50" alt="" />
+                  <span className="__className_168b81 bg-logo bg-clip-text text-2xl font-bold text-transparent">
                     MU5IC4GOOD
                   </span>
+                  {/*<span className="gradient-to-r from-pink-500 to-purple-600 text-2xl font-bold dark:text-white">
+                    MU5IC4GOOD
+                  </span>*/}
                 </div>
-                <p className="text-body-color dark:text-body-color-dark mb-9 text-base leading-relaxed">
-                  Bringing together music lovers and world-class artists to
-                  create positive change through the power of music and
-                  education.
+                <p className="dark:text-body-color-dark text-dark-gray mb-9 text-base leading-relaxed">
+                  Bringing together music lovers and well-doers to create
+                  positive change through the universal language of music.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -57,7 +60,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mr-6 duration-300"
+                    className="dark:text-body-color-dark dark:hover:text-primary text-dark-gray mr-6 duration-300 hover:text-white"
                   >
                     <svg
                       width="18"
@@ -77,7 +80,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mr-6 duration-300"
+                    className="dark:text-body-color-dark dark:hover:text-primary text-dark-gray mr-6 duration-300 hover:text-white"
                   >
                     <svg
                       width="18"
@@ -99,7 +102,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mr-6 duration-300"
+                    className="dark:text-body-color-dark dark:hover:text-primary text-dark-gray mr-6 duration-300 hover:text-white"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +133,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary duration-300"
+                    className="dark:text-body-color-dark dark:hover:text-primary text-dark-gray duration-300 hover:text-white"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -155,7 +158,7 @@ const Footer = () => {
             <div>
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <div className="mb-4 flex items-center">
-                  <span className="text-2xl font-bold text-black dark:text-white">
+                  <span className="text-dark-gray text-2xl font-bold dark:text-white">
                     Contact Us
                   </span>
                 </div>
@@ -178,7 +181,7 @@ const Footer = () => {
                     </svg>
                     <a
                       href="mailto:info@mu5ic4good.org"
-                      className="text-body-color dark:text-body-color-dark transition-colors hover:text-gray-900 dark:hover:text-gray-300"
+                      className="dark:text-body-color-dark text-dark-gray transition-colors hover:text-white dark:hover:text-gray-300"
                     >
                       info@mu5ic4good.org
                     </a>
@@ -200,7 +203,7 @@ const Footer = () => {
                     </svg>
                     <a
                       href="tel:+13313320948"
-                      className="text-body-color dark:text-body-color-dark transition-colors hover:text-gray-900 dark:hover:text-gray-300"
+                      className="dark:text-body-color-dark text-dark-gray transition-colors hover:text-white dark:hover:text-gray-300"
                     >
                       + 1 (331) 332-0948
                     </a>
@@ -221,7 +224,7 @@ const Footer = () => {
                       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
                       <circle cx="12" cy="10" r="3"></circle>
                     </svg>
-                    <span className="text-body-color dark:text-body-color-dark transition-colors">
+                    <span className="dark:text-body-color-dark text-dark-gray transition-colors">
                       Naperville, IL 60540
                     </span>
                   </div>

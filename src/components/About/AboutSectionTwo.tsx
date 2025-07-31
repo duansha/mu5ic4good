@@ -10,7 +10,7 @@ const AboutSectionTwo = () => {
               <h2 className="mb-12 text-center text-4xl font-bold text-gray-900 dark:text-gray-100">
                 Our Story
               </h2>
-              <p className="mx-auto max-w-4xl pb-10 text-left text-xl text-gray-600 md:text-2xl dark:text-gray-100">
+              <p className="mx-auto max-w-4xl pb-10 text-left text-lg text-gray-600 md:text-xl dark:text-gray-100">
                 MU5IC4GOOD was established in 2025 with the straightforward yet
                 impactful goal of using music&#39;s universal language to build
                 relationships and create life-changing opportunities for those
@@ -19,13 +19,13 @@ const AboutSectionTwo = () => {
                 obstacles, and ensuring taht every child has the opportunities
                 to flourish.
               </p>
-              <p className="mx-auto max-w-4xl pb-10 text-left text-lg text-gray-600 md:text-2xl dark:text-gray-100">
+              <p className="mx-auto max-w-4xl pb-10 text-left text-lg text-gray-600 md:text-xl dark:text-gray-100">
                 Our two founders Leo Zhang and Ethan Zhang grew up with a close
                 fried who on the verge of being diagnosed with autism,
                 struggling to communicate, connect, and develop. However, an
                 unexpected miracle occured; he found a piano.
               </p>
-              <p className="mx-auto max-w-4xl pb-10 text-left text-lg text-gray-600 md:text-2xl dark:text-gray-100">
+              <p className="mx-auto max-w-4xl pb-10 text-left text-lg text-gray-600 md:text-xl dark:text-gray-100">
                 Their close friend started to open up, learn, and thrive as
                 melodies took the place of silence. It was then that our
                 founders came to see that music was more than simply a pastime;
@@ -35,7 +35,7 @@ const AboutSectionTwo = () => {
                 inspiration behind MU5IC4GOOD. Using music, our goal is to build
                 a bridge to a brighter future.
               </p>
-              <p className="mx-auto max-w-4xl text-left text-lg text-gray-600 md:text-2xl dark:text-gray-100">
+              <p className="mx-auto max-w-4xl text-left text-lg text-gray-600 md:text-xl dark:text-gray-100">
                 On August 2nd, 2025, our very first-ever concert will take place
                 at the Naperville Public Library&#39;s 95th Street Branch.
                 Talented musicians of all ages will be performing to show their

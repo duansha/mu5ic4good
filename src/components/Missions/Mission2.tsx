@@ -8,9 +8,10 @@ const Mission2 = () => {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="mb-6 text-4xl font-bold">Join Our Mission</h2>
           <p className="mx-auto mb-8 max-w-2xl text-xl text-gray-200 dark:text-gray-300">
-            Together, we can raise awareness about the transformative power of
-            music therapy and help more children with autism access these
-            life-changing programs. Your support makes this mission possible.
+            By working together, we can spread the word about the transformative
+            potential of music therapy and make it easier for children with
+            autism to access these life-changing programs. Your support makes
+            the mission possible.
           </p>
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <Link href="/donations">

@@ -11,7 +11,7 @@ const AboutSectionThree = () => {
           <div className="mx-auto grid max-w-4xl gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-card text-card-foreground rounded-lg border-0 text-center shadow-lg transition-shadow hover:shadow-xl dark:bg-gray-700 dark:shadow-gray-900/50">
               <div className="p-8">
-                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-pink-600">
+                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-emerald-400 to-emerald-300">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -33,14 +33,14 @@ const AboutSectionThree = () => {
                   Music as Universal Language
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  We believe music transcends all barriers and brings people
-                  together for common causes.
+                  We believe music overcomes all obstacles, uniting people for
+                  shared purposes.
                 </p>
               </div>
             </div>
             <div className="bg-card text-card-foreground rounded-lg border-0 text-center shadow-lg transition-shadow hover:shadow-xl dark:bg-gray-700 dark:shadow-gray-900/50">
               <div className="p-8">
-                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-pink-600">
+                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-emerald-400 to-emerald-300">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -60,14 +60,14 @@ const AboutSectionThree = () => {
                   Compassionate Action
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Every decision we make is guided by our commitment to helping
+                  Every choice we make is driven by our dedication to supporting
                   children in need.
                 </p>
               </div>
             </div>
             <div className="bg-card text-card-foreground rounded-lg border-0 text-center shadow-lg transition-shadow hover:shadow-xl dark:bg-gray-700 dark:shadow-gray-900/50">
               <div className="p-8">
-                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-pink-600">
+                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-emerald-400 to-emerald-300">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -91,8 +91,8 @@ const AboutSectionThree = () => {
                   Transparency
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  We maintain complete transparency in how funds are raised and
-                  distributed.
+                  We enusre full transparency in the collection and distribution
+                  of funds.
                 </p>
               </div>
             </div>

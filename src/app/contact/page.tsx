@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import ContactTop from "@/components/Contact/contactTop";
+import ContactBottom from "@/components/Contact/contactBottom";
 import Contact from "@/components/Contact";
 
 import { Metadata } from "next";
@@ -14,8 +15,7 @@ const ContactPage = () => {
   return (
     <>
       <ContactTop />
-
-      <Contact />
+      <ContactBottom />
     </>
   );
 };
