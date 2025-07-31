@@ -57,7 +57,7 @@ const Header = () => {
                     sticky ? "py-5 lg:py-2" : "py-8"
                   } `}
                 >
-                  <Image src="/images/bg.png" width="50" height="50" alt="" />
+                  <Image src="/images/bg.PNG" width="50" height="50" alt="" />
                   {/*<svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
