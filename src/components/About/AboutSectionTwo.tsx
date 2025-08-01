@@ -21,7 +21,7 @@ const AboutSectionTwo = () => {
               </p>
               <p className="mx-auto max-w-4xl pb-10 text-left text-lg text-gray-600 md:text-xl dark:text-gray-100">
                 Our two founders Leo Zhang and Ethan Zhang grew up with a close
-                fried who on the verge of being diagnosed with autism,
+                friend who on the verge of being diagnosed with autism,
                 struggling to communicate, connect, and develop. However, an
                 unexpected miracle occured; he found a piano.
               </p>
