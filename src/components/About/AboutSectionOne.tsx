@@ -22,7 +22,7 @@ const AboutSectionOne = () => {
       <section className="pt-16">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
-            <div className="bg-banner-bg text-banner py-20 dark:bg-gray-800 dark:text-gray-200">
+            <div className="bg-banner-bg py-20 text-gray-200 dark:bg-gray-800 dark:text-gray-300">
               <div className="mx-auto max-w-4xl px-4">
                 <h1 className="mb-6 text-center text-5xl font-bold md:text-6xl">
                   About US

@@ -7,7 +7,7 @@ const Missions1 = () => {
       <section className="pt-16">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
-            <div className="bg-banner-bg text-banner py-20 pt-16 dark:bg-gray-800 dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950 dark:text-gray-200">
+            <div className="bg-banner-bg py-20 pt-16 text-gray-200 dark:bg-gray-800 dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950 dark:text-gray-300">
               <div className="mx-auto max-w-4xl px-4 text-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

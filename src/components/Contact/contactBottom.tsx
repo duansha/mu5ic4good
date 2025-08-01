@@ -3,7 +3,7 @@ import SectionTitle from "../Common/SectionTitle";
 const ContactTop = () => {
   return (
     <>
-      <section className="bg-bottom-banner-bg py-20 dark:bg-gray-900">
+      <section className="bg-bg py-20 dark:bg-gray-900">
         <div className="mx-auto max-w-6xl px-4">
           <div className="grid gap-12 lg:grid-cols-2">
             <div>
@@ -139,7 +139,7 @@ const ContactTop = () => {
                         <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-gray-100">
                           Email Us
                         </h3>
-                        <p className="mb-1 font-medium text-purple-600 dark:text-purple-400">
+                        <p className="text-logo-dark dark:text-logo-light mb-1 font-medium">
                           info@mu5ic4good.org
                         </p>
                         <p className="text-sm text-gray-600 dark:text-gray-300">
@@ -172,7 +172,7 @@ const ContactTop = () => {
                         <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-gray-100">
                           Call Us
                         </h3>
-                        <p className="mb-1 font-medium text-purple-600 dark:text-purple-400">
+                        <p className="text-logo-dark dark:text-logo-light mb-1 font-medium">
                           +1 (331) 332-0948
                         </p>
                       </div>
