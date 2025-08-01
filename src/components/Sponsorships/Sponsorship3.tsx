@@ -467,7 +467,14 @@ const Sponsorship3 = () => {
               </div>
               <div className="p-8 text-center">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
-                  Harrison Fitness, EnergizAI
+                  <a
+                    target="_blank"
+                    className="hover:text-gray-500 hover:underline dark:hover:text-gray-400"
+                    href="https://www.harisonfitness.com/"
+                  >
+                    Harison Fitness
+                  </a>
+                  , EnergizAI
                 </h3>
               </div>
             </div>
@@ -497,7 +504,13 @@ const Sponsorship3 = () => {
               </div>
               <div className="p-8 text-center">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
-                  Girgis, Ito Orthodontics
+                  <a
+                    target="_blank"
+                    className="hover:text-gray-500 hover:underline dark:hover:text-gray-400"
+                    href="https://www.girgisortho.com/"
+                  >
+                    Girgis & Ito Orthodontics
+                  </a>
                 </h3>
               </div>
             </div>
@@ -525,7 +538,21 @@ const Sponsorship3 = () => {
               </div>
               <div className="p-8 text-center">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
-                  sno problems, Fresh Thyme
+                  <a
+                    target="_blank"
+                    className="hover:text-gray-500 hover:underline dark:hover:text-gray-400"
+                    href="https://www.sno-problems.com/"
+                  >
+                    sno problems
+                  </a>
+                  ,{" "}
+                  <a
+                    target="_blank"
+                    className="hover:text-gray-500 hover:underline dark:hover:text-gray-400"
+                    href="https://ww2.freshthyme.com/sm/planning/rsid/104"
+                  >
+                    Fresh Thyme
+                  </a>
                 </h3>
               </div>
             </div>
@@ -554,7 +581,21 @@ const Sponsorship3 = () => {
               </div>
               <div className="p-8 text-center">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
-                  Gia Mia Naperville, Avocado Theory
+                  <a
+                    target="_blank"
+                    className="hover:text-gray-500 hover:underline dark:hover:text-gray-400"
+                    href="https://www.giamiapizzabar.com/"
+                  >
+                    Gia Mia Naperville
+                  </a>
+                  ,{" "}
+                  <a
+                    target="_blank"
+                    className="hover:text-gray-500 hover:underline dark:hover:text-gray-400"
+                    href="https://avotheory.com/menu"
+                  >
+                    Avocado Theory
+                  </a>
                 </h3>
               </div>
             </div>
@@ -583,7 +624,13 @@ const Sponsorship3 = () => {
               </div>
               <div className="p-8 text-center">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
-                  Naperville Music
+                  <a
+                    target="_blank"
+                    className="hover:text-gray-500 hover:underline dark:hover:text-gray-400"
+                    href="https://www.napervillemusic.com/"
+                  >
+                    Naperville Music
+                  </a>
                 </h3>
               </div>
             </div>
