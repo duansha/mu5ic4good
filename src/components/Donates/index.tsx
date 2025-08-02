@@ -251,7 +251,7 @@ const Donates = () => {
                   with autism.
                 </p>
                 <a
-                  href="https://www.instagram.com/mu5ic4good/"
+                  href="https://www.instagram.com/mu5ic4good_us/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-logo-dark dark:text-logo-light font-medium hover:underline"
