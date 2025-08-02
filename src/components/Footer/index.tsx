@@ -56,7 +56,7 @@ const Footer = () => {
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="https://www.facebook.com/people/Mu5ic4good/61577953505992/"
+                    href="https://www.facebook.com/mu5ic4good/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -76,7 +76,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="https://x.com/MU5IC4GOOD"
+                    href="https://x.com/MU5IC4GOOD_US"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -98,7 +98,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="https://www.instagram.com/mu5ic4good/"
+                    href="https://www.instagram.com/mu5ic4good_us/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -129,7 +129,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="https://www.youtube.com/@mu5ic4good-naperville"
+                    href="https://www.youtube.com/@MU5IC4GOOD"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
